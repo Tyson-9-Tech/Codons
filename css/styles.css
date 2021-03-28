@@ -52,15 +52,16 @@
 /* Headers */
 .header{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   padding: var(--defaultSpaceLeftRight);
   background-color: var(--firstColor);
   grid-area: header;
 }
 
 .logo{
-  font-size: calc(7vw + 18px);
+  font-size: calc(2rem + 18px);
   cursor: pointer;
   font-family: var(--firstFontFamily);
   color: var(--secondColor);
