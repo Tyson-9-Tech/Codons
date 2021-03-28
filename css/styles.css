@@ -299,6 +299,8 @@
   }
   .mainSection img{
     /* display: none; */
+    width: 90vw;
+    margin: 0 auto;
   }
   .mainSection img:hover{
     background-color: var(--fifthColor);
