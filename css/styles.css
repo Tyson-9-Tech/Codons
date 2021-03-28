@@ -303,7 +303,7 @@
     margin: 0 auto;
   }
   .mainSection img:hover{
-    background-color: var(--fifthColor);
+    background-color: var(--secondColor);
   }
   .landindContainer{
     background-color: var(--firstColor);
@@ -313,15 +313,17 @@
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
     text-align: center;
+    color: var(--thirdColor);
   }
   .landindContainer p{
     font-size: 1.4rem;
     text-align: justify;
     width: 85vw;
     margin: .5rem auto;
+    color: var(--thirdColor);
   }
   .landindContainer a{
-    background-color: var(--firstColor);
+    background-color: var(--fourthColor);
     font-size: 1.5rem;
   }
   /* ---------------------------------------------------------- */
