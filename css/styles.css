@@ -15,7 +15,7 @@
   --secondColor: #ff9900;
   --thirdColor: #fefefe;
   --fourthColor: #1b1b1b;
-  --fifthColor: #39034b;
+  --fifthColor: #280135;
 
   --defultWidth: 100vw;
   --defultHeight: 100vh;
@@ -30,6 +30,7 @@
   text-decoration: none;
   color: var(--secondColor);
   font-family: var(--firstFontFamily);
+  box-sizing: border-box;
 }
 
 
@@ -298,15 +299,14 @@
     background-color: var(--fourthColor);
   }
   .mainSection img{
-    /* display: none; */
-    width: 90vw;
+    width: 100vw;
     margin: 0 auto;
   }
   .mainSection img:hover{
     background-color: var(--fifthColor);
   }
   .landindContainer{
-
+    background-color: var(--firstColor);
   }
   .landindContainer h1{
     width: 75vw;
