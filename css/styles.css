@@ -298,7 +298,7 @@
     background-color: var(--fourthColor);
   }
   .mainSection img{
-    display: none;
+    /* display: none; */
   }
   .mainSection img:hover{
     background-color: var(--fifthColor);
