@@ -185,7 +185,7 @@
     }
     
     .cardInfos{
-        width: 90%;
+        width: 100%;
         min-height: 15vh;
         margin: 0 auto;
         display: flex;
