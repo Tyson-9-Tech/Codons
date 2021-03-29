@@ -181,7 +181,7 @@
     }
     
     .cardText h2, .cardText h3{
-        margin: 0 auto;
+        margin: 1rem auto;
     }
     
     .cardInfos{
@@ -192,7 +192,7 @@
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
-        font-size: calc(.3rem + 18px);
+        font-size: calc(.3rem + 16px);
         grid-gap: 1.5rem;
     }
     /* -------------------------------------- */
