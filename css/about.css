@@ -148,15 +148,15 @@
     }
 
     .card{
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         padding: 1rem;
         min-height: 50vh;
         margin: 0 auto;
-        font-size: calc(.3rem + 18px);
     }
-
+    
     .cardImage{
         width: 100%;
         min-height: 25vh;
@@ -179,16 +179,17 @@
     .cardText{
         margin: 0 auto;
     }
-
+    
     .cardText h2, .cardText h3{
         margin: 0 auto;
     }
-
+    
     .cardInfos{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         text-align: center;
         grid-gap: 1rem;
+        font-size: calc(.3rem + 16px);
     }
     /* -------------------------------------- */
 }
