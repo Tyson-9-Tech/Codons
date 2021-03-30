@@ -16,7 +16,7 @@
   --secondColor: #ff9900;
   --thirdColor: #fefefe;
   --fourthColor: #1b1b1b;
-  --fifthColor: #7d08dd;
+  --fifthColor: #140024;
 
   --defultWidth: 100vw;
   --defultHeight: 100vh;
@@ -32,9 +32,13 @@
   color: var(--secondColor);
   font-family: var(--firstFontFamily);
   box-sizing: border-box;
+  line-height: var(--defaultLineHeight);
 }
 
 
+svg{
+  width: 1.2rem;
+}
 
 
 /* Bodies */
@@ -157,6 +161,7 @@
   grid-area: footer;
   text-align: center;
   padding: calc(var(--defaultSpace) - 1rem);
+  z-index: 1;
 }
 /* ---------------------------------------------------------- */
 
