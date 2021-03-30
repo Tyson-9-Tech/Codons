@@ -35,7 +35,6 @@
 .coursText {
   text-align: justify;
   margin-bottom: calc(var(--defaultSpace) + 1.3rem);
-  font-size: 1.3rem;
   border-radius: 0.5rem;
   text-shadow: 0.1rem 0.1rem 1rem var(--firstColor);
   color: var(--thirdColor);
