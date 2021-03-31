@@ -49,6 +49,14 @@
   margin: 2rem auto;
 }
 
+.coursText input{
+  outline: none;
+  border: none;
+  background-color: #000000;
+  padding: .3rem;
+  text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
   .header {
     position: sticky;
