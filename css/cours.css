@@ -49,10 +49,10 @@
   margin: 2rem auto;
 }
 
-.coursText input{
+.coursText > pre{
   outline: none;
   border: none;
-  background-color: #000000;
+  background-color: var(--fifthColor);
   padding: .3rem;
   text-align: center;
 }
