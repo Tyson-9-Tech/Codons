@@ -25,7 +25,7 @@
 }
 
 .infosText .signature{
-    color: var(--fifthColor);
+    color: var(--secondColor);
     font-weight: bold;
 }
 
@@ -73,7 +73,7 @@
 }
 .infoTittle{
     font-size: 1rem;
-    color: var(--secondColor);
+    color: var(--thirdColor);
     font-family: var(--secondFontFamily);
 }
 
@@ -95,7 +95,7 @@
 }
 .info svg{
     margin-right: .3rem;
-    color: var(--secondColor);
+    color: var(--thirdColor);
 }
 /* ------------------------------------------------- */
 
