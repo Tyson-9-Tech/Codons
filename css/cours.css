@@ -50,11 +50,18 @@
 }
 
 .coursText > pre{
+  all: unset;
   outline: none;
   border: none;
   background-color: var(--fifthColor);
-  padding: .3rem;
   text-align: center;
+}
+
+pre{
+  width: 60%;
+  margin: auto;
+  padding: .3rem;
+  background-color: var(--fourthColor);
 }
 
 @media only screen and (max-width: 768px) {
