@@ -134,6 +134,18 @@ svg{
 .mainSection img:hover, .mainSection video:hover{
   background-color: var(--firstColor);
 }
+
+video::cue{
+  background: #000000;
+  color: rgb(207, 128, 0);
+  font-size: calc(.2rem + 16px);
+  padding: 3rem 2rem;
+}
+
+video::cue(b){
+  color: peachpuff;
+}
+
 .landindContainer{
   display: flex;
   flex-direction: column;
