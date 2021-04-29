@@ -136,8 +136,8 @@ svg{
 }
 
 video::cue{
-  background: var(--secondColor);
-  color: var(--firstColor);
+  /* background: var(--secondColor);
+  color: var(--firstColor); */
   font-size: calc(.3rem + 14px);
 }
 
